@@ -1,0 +1,29 @@
+{
+  "lockfile-version": 1,
+  "manifest": {
+    "version": 1,
+    "hook": {},
+    "profile": {},
+    "options": {
+      "systems": [
+        "aarch64-darwin",
+        "aarch64-linux",
+        "x86_64-darwin",
+        "x86_64-linux"
+      ],
+      "allow": {
+        "licenses": []
+      },
+      "semver": {}
+    },
+    "build": {
+      "hello": {
+        "command": "mkdir -p $out\necho \"hello world!\" >> $out/hello.txt\n",
+        "files": null,
+        "systems": null,
+        "sandbox": null
+      }
+    }
+  },
+  "packages": []
+}
