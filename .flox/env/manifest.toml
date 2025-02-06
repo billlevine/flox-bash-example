@@ -9,6 +9,7 @@ version = 1
 # List packages you wish to install in your environment inside
 # the `[install]` section.
 [install]
+cowsay.pkg-path = "cowsay"
 # hello.pkg-path = "hello"
 # nodejs = { version = "^20.15.1", pkg-path = "nodejs" }
 
@@ -55,6 +56,27 @@ hello.command = '''
 mkdir -p $out
 echo "hello world!" >> $out/hello.txt
 '''
+
+goodbye.command = '''
+mkdir -p $out
+echo "goodbye world!" >> $out/goodbye.txt
+'''
+
+afternoon.command = '''
+mkdir -p $out/bin
+echo "#!/bin/bash" > $out/bin/afternoon
+echo "echo 'I am saying good afternoon to $1'" >> $out/bin/afternoon
+chmod a+x $out/bin/afternoon
+'''
+
+sayhi.command = '''
+mkdir -p $out/bin
+echo "#!/bin/bash" > $out/bin/sayhi
+echo "echo 'I am saying hi to $1'" >> $out/bin/sayhi
+chmod a+x $out/bin/sayhi
+'''
+sayhi.description = "my sayhi package"
+sayhi.version = "0.0.1"
 
 # Additional options can be set in the `[options]` section. Refer to
 # manifest.toml(5) for a list of available options.
