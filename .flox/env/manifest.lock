@@ -33,7 +33,7 @@
       },
       "sayhi": {
         "command": "mkdir -p $out/bin\necho \"#!/bin/bash\" > $out/bin/sayhi\necho \"echo 'I am saying hi to $1'\" >> $out/bin/sayhi\nchmod a+x $out/bin/sayhi\n",
-        "version": "0.0.2",
+        "version": "0.0.3",
         "description": "my sayhi package"
       }
     }
