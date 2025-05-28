@@ -18,19 +18,10 @@
       ]
     },
     "build": {
-      "afternoon": {
-        "command": "mkdir -p $out/bin\necho \"#!/bin/bash\" > $out/bin/afternoon\necho \"echo 'I am saying good afternoon to $1'\" >> $out/bin/afternoon\nchmod a+x $out/bin/afternoon\n"
-      },
-      "goodbye": {
-        "command": "mkdir -p $out\necho \"goodbye world!\" >> $out/goodbye.txt\n"
-      },
-      "hello": {
-        "command": "mkdir -p $out\necho \"hello world!\" >> $out/hello.txt\n"
-      },
       "sayhi": {
         "command": "mkdir -p $out/bin\necho \"#!/bin/bash\" > $out/bin/sayhi\necho \"echo 'I am saying hi to $1'\" >> $out/bin/sayhi\nchmod a+x $out/bin/sayhi\n",
-        "version": "0.0.3",
-        "description": "my sayhi package"
+        "version": "0.0.4",
+        "description": "An super simple greeting."
       }
     }
   },
