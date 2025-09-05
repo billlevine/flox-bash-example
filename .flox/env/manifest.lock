@@ -29,30 +29,26 @@
     {
       "attr_path": "cowsay",
       "broken": false,
-      "derivation": "/nix/store/vvc8ww0akiykrxvclvl7l6nfgz2hssc8-cowsay-3.8.4.drv",
+      "derivation": "/nix/store/6an0l1hby9zskg76dsz4ay8mw1hk2n39-cowsay-3.7.0.drv",
       "description": "Program which generates ASCII pictures of a cow with a message",
       "install_id": "cowsay",
       "license": "GPL-3.0-only",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "cowsay-3.8.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b73c2221a46c13557b1b3be9c2070cc42cf01eb3",
+      "name": "cowsay-3.7.0",
       "pname": "cowsay",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:14:30.491046Z",
-      "stabilities": [
-        "staging",
-        "unstable"
-      ],
+      "rev": "b73c2221a46c13557b1b3be9c2070cc42cf01eb3",
+      "rev_count": 658304,
+      "rev_date": "2024-07-27T06:49:29Z",
+      "scrape_date": "2024-07-29T13:19:28Z",
       "unfree": false,
-      "version": "3.8.4",
+      "version": "3.7.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "man": "/nix/store/v8fgr5fw4lvm48y0yc6wywqi3nf34k60-cowsay-3.8.4-man",
-        "out": "/nix/store/d1dcmxkzxd25j6xbqc9k7nwvd31jqqpp-cowsay-3.8.4"
+        "man": "/nix/store/97db293549xgwyz52jp6r07bamaxx0pc-cowsay-3.7.0-man",
+        "out": "/nix/store/0dx58nfpigjscsrq4pwixh66wag9yg12-cowsay-3.7.0"
       },
       "system": "aarch64-darwin",
       "group": "toplevel",
@@ -61,30 +57,26 @@
     {
       "attr_path": "cowsay",
       "broken": false,
-      "derivation": "/nix/store/pg93jcb8y9799y1ai0ph17bsfdy4v8m0-cowsay-3.8.4.drv",
+      "derivation": "/nix/store/xgl6nrh8cda88m5lrf73xj60fhv53dsr-cowsay-3.7.0.drv",
       "description": "Program which generates ASCII pictures of a cow with a message",
       "install_id": "cowsay",
       "license": "GPL-3.0-only",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "cowsay-3.8.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b73c2221a46c13557b1b3be9c2070cc42cf01eb3",
+      "name": "cowsay-3.7.0",
       "pname": "cowsay",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:34:50.536978Z",
-      "stabilities": [
-        "staging",
-        "unstable"
-      ],
+      "rev": "b73c2221a46c13557b1b3be9c2070cc42cf01eb3",
+      "rev_count": 658304,
+      "rev_date": "2024-07-27T06:49:29Z",
+      "scrape_date": "2024-07-29T13:19:28Z",
       "unfree": false,
-      "version": "3.8.4",
+      "version": "3.7.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "man": "/nix/store/7dgw1ppm35igac31a9iz7q9dnlz948ml-cowsay-3.8.4-man",
-        "out": "/nix/store/cvynrgksg4fmfm2q9g6p9sqnvsvr48ra-cowsay-3.8.4"
+        "man": "/nix/store/2icvcmrb57p20l6jr3dd8668aavzv30x-cowsay-3.7.0-man",
+        "out": "/nix/store/yff06jxbwzr9k18fqwpl7br5xnghiyc7-cowsay-3.7.0"
       },
       "system": "aarch64-linux",
       "group": "toplevel",
@@ -93,30 +85,26 @@
     {
       "attr_path": "cowsay",
       "broken": false,
-      "derivation": "/nix/store/n8b221c6xk2ls0vdaln1s0jpxbxaz106-cowsay-3.8.4.drv",
+      "derivation": "/nix/store/x12vlrjhgxdyc8axbxxlhdpyy789gkda-cowsay-3.7.0.drv",
       "description": "Program which generates ASCII pictures of a cow with a message",
       "install_id": "cowsay",
       "license": "GPL-3.0-only",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "cowsay-3.8.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b73c2221a46c13557b1b3be9c2070cc42cf01eb3",
+      "name": "cowsay-3.7.0",
       "pname": "cowsay",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T05:53:48.761820Z",
-      "stabilities": [
-        "staging",
-        "unstable"
-      ],
+      "rev": "b73c2221a46c13557b1b3be9c2070cc42cf01eb3",
+      "rev_count": 658304,
+      "rev_date": "2024-07-27T06:49:29Z",
+      "scrape_date": "2024-07-29T13:19:28Z",
       "unfree": false,
-      "version": "3.8.4",
+      "version": "3.7.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "man": "/nix/store/gj3s3bi6lxds5asjfwn80yxj6agki292-cowsay-3.8.4-man",
-        "out": "/nix/store/bjn3g3v3sv3z2dsrm04lijhpdhn317ab-cowsay-3.8.4"
+        "man": "/nix/store/6kji2sn0h8p9vw02i1ycma01lmqpyr0v-cowsay-3.7.0-man",
+        "out": "/nix/store/hqbwx31lc03v8dd2b69hbnhb44ygyddi-cowsay-3.7.0"
       },
       "system": "x86_64-darwin",
       "group": "toplevel",
@@ -125,30 +113,26 @@
     {
       "attr_path": "cowsay",
       "broken": false,
-      "derivation": "/nix/store/lgxfrvhfj142h9bl8010qfhay7z9gdw9-cowsay-3.8.4.drv",
+      "derivation": "/nix/store/1g1nllv1088sh3isccgir81wpjk6xmnz-cowsay-3.7.0.drv",
       "description": "Program which generates ASCII pictures of a cow with a message",
       "install_id": "cowsay",
       "license": "GPL-3.0-only",
-      "locked_url": "https://github.com/flox/nixpkgs?rev=9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "name": "cowsay-3.8.4",
+      "locked_url": "https://github.com/flox/nixpkgs?rev=b73c2221a46c13557b1b3be9c2070cc42cf01eb3",
+      "name": "cowsay-3.7.0",
       "pname": "cowsay",
-      "rev": "9807714d6944a957c2e036f84b0ff8caf9930bc0",
-      "rev_count": 826938,
-      "rev_date": "2025-07-08T14:16:20Z",
-      "scrape_date": "2025-07-10T06:15:24.914456Z",
-      "stabilities": [
-        "staging",
-        "unstable"
-      ],
+      "rev": "b73c2221a46c13557b1b3be9c2070cc42cf01eb3",
+      "rev_count": 658304,
+      "rev_date": "2024-07-27T06:49:29Z",
+      "scrape_date": "2024-07-29T13:19:28Z",
       "unfree": false,
-      "version": "3.8.4",
+      "version": "3.7.0",
       "outputs_to_install": [
         "man",
         "out"
       ],
       "outputs": {
-        "man": "/nix/store/iybz0l5smyaq7xsmb6qz6v6wgxngvx1h-cowsay-3.8.4-man",
-        "out": "/nix/store/500s9r282xjq81dqssjc2n2kll39jwcq-cowsay-3.8.4"
+        "man": "/nix/store/3iprssz8zh2sq7mlnjzlfb2a1rdx3lbf-cowsay-3.7.0-man",
+        "out": "/nix/store/k88sdsg1fj9sf4qz3raihqkxrj1yxbyk-cowsay-3.7.0"
       },
       "system": "x86_64-linux",
       "group": "toplevel",
