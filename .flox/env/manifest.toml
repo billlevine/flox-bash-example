@@ -61,8 +61,8 @@ echo "echo 'I am saying hi to $1'" >> $out/bin/sayhi
 cp /home/bill/github/flox/floxhub/share/test-data/test_db-2.0.5.tar.gz $out/etc/
 chmod a+x $out/bin/sayhi
 '''
-sayhi.description = "An super simple greeting."
-sayhi.version = "0.0.4"
+sayhi.description = "A super simple greeting."
+sayhi.version = "0.0.5"
 
 # Additional options can be set in the `[options]` section. Refer to
 # manifest.toml(5) for a list of available options.

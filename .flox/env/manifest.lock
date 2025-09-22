@@ -20,8 +20,8 @@
     "build": {
       "sayhi": {
         "command": "mkdir -p $out/bin\nmkdir -p $out/etc\necho \"#!/bin/bash\" > $out/bin/sayhi\necho \"echo 'I am saying hi to $1'\" >> $out/bin/sayhi\ncp /home/bill/github/flox/floxhub/share/test-data/test_db-2.0.5.tar.gz $out/etc/\nchmod a+x $out/bin/sayhi\n",
-        "version": "0.0.4",
-        "description": "An super simple greeting."
+        "version": "0.0.5",
+        "description": "A super simple greeting."
       }
     }
   },
