@@ -58,7 +58,6 @@ mkdir -p $out/bin
 mkdir -p $out/etc
 echo "#!/bin/bash" > $out/bin/sayhi
 echo "echo 'I am saying hi to $1'" >> $out/bin/sayhi
-cp /home/bill/github/flox/floxhub/share/test-data/test_db-2.0.5.tar.gz $out/etc/
 chmod a+x $out/bin/sayhi
 '''
 sayhi.description = "A super simple greeting."
